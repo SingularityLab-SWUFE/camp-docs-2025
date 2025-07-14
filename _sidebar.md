@@ -1,0 +1,10 @@
+- [首页](README.md)
+- [如何贡献](docs/how-to-contribute.md)
+- 算法竞赛
+  - [week 0. 课程介绍](docs/acm/week0.md)
+- 人工智能
+  - [week 0. 课程介绍](docs/ai/week0.md)
+- 后端开发
+  - [week 0. 课程介绍](docs/backend/week0.md)
+- 前端开发
+  - [week 0. 课程介绍](docs/frontend/week0.md)
