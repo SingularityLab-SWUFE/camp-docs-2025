@@ -23,7 +23,7 @@ jobs:
       - name: Upload files to server via rsync over SSH
         uses: burnett01/rsync-deployments@7.0.2
         with:
-          switches: -avzr --delete
+          switches: -avz --delete --exclude-from=.rsyncignore
           path: ./
           remote_path: ${{ secrets.SERVER_PATH }}
           remote_host: ${{ secrets.SERVER_IP }}
